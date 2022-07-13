@@ -1,0 +1,16 @@
+lcd==>i2c
+	scl=>22
+	sda=>21
+lora==>spi
+	nss=>15
+	mosi=>23
+	miso=>19
+	sck=>18
+	rst=>04
+	dio0=>26
+red led=>33
+grean led=>25
+down btn=>02
+up btn=>16
+select btn=>05
+DS18b20 =>27
