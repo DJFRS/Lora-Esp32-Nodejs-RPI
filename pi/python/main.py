@@ -8,7 +8,7 @@ import board
 import digitalio
 import adafruit_character_lcd.character_lcd as characterlcd
 device_name="sen1"
-server_ip="192.168.57.87"
+server_ip="127.0.0.1"
 server_port=81
 def find_interface():
     find_device = "ip addr show"
