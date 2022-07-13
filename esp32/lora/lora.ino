@@ -81,10 +81,7 @@ void loop()
   for(int i=0;i++;i<=sizeof(dataArray)){
     dataArray[i]=0;
   }
-  
   results.getBytes(dataArray, sizeof(dataArray));
-//  uint8_t data[4] = { highByte(results), lowByte(results)};
-
   rf95.send(dataArray, sizeof(dataArray));
   rf95.waitPacketSent();
   digitalWrite(GREAN_LED, HIGH);
